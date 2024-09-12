@@ -1,1 +1,36 @@
-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Quiz</h1>
+    </header>
+    <main>
+        <div id="quiz-container">
+            <!-- Quiz Questions will be loaded here -->
+        </div>
+        <div id="score-container" style="display: none;">
+            <h2>Enter Your Details</h2>
+            <form id="details-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="year-group">Year Group:</label>
+                <input type="text" id="year-group" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="leaderboard-container" style="display: none;">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboard-list">
+                <!-- Leaderboard will be loaded here -->
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
